@@ -3,7 +3,7 @@ __File(maha.py)__ downloads best audio and videos using the list of links in the
 * Open a Playlist on Youtube
 * Copy the page source and paste in a file (say `maha.html`)
 
-### To run
+### To Run
 `python maha.py`
 
-### JUST INSTALL `youtube-dl` in your system
+### INSTALL `youtube-dl` in your system
