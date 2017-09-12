@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 # //regex
 # find_http = re.compile("^http")
 # opening file
-# fileObject = open("/home/prince/Documents/documents/scripts_py/rajya_sabha.txt" ,"r")
 fileObject = open("/home/gugli/Documents/script_py/maha.html" ,"r")
 
 soup = BeautifulSoup(fileObject.read())
@@ -19,8 +18,8 @@ for item in a_tag:
 
 # dir_name = raw_input("dirname ")
 # name = "mkdir" + dir_name
-os.system("mkdir rama_vid")
-os.chdir("/home/gugli/Documents/script_py/rama_vid")
+os.system("mkdir maha_vid")
+os.chdir("/home/gugli/Documents/script_py/maha_vid")
 # os.chdir("/home/prince/Documents/documents/scripts_py/others")
 
 os.system("pwd")
@@ -36,4 +35,4 @@ for line in href_list:
 	os.system(b)
 	print "Done " , count , '\n',b
 
-print "wtf"
+print "wubba lubba dub dub"
